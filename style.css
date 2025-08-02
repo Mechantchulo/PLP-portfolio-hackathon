@@ -70,6 +70,11 @@ a {
     height: 100vh;
     padding: 60px 9% 0;
     color: #fff;
+    gap: 50px;
+    visibility: hidden;
+    opacity: 0;
+    animation: show-content 1.5s linear forwards;
+    animation-delay: 1.4s;
 }
 
 
@@ -79,9 +84,51 @@ a {
 }
 
 .home-section h2 {
+    display: inline-block;
     font-size: 31px;
     margin-top: -10px;
+    
 
+}
+
+.home-section h2 span {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .7px #7cf03d;
+    animation: display-text 16s linear infinite;
+    animation-delay: calc(-4s * var(--i));
+}
+
+@keyframes display-text {
+    25%, 100% {
+        display: none;
+    }
+}
+
+
+.home-section h2 span::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: 2px solid #7cf03d;
+    color: #7cf03d;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 4s linear infinite;
+}
+
+@keyframes fill-text {
+    10%, 100% {
+        width: 0;
+        
+    }
+
+    70%, 90% {
+        width: 100%;     
+    
+    }
+    
 }
 
 .home-section p {
