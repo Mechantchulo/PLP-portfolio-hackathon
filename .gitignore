@@ -1,10 +1,13 @@
-# Ignore all JPEG and image files
+# Ignore all image files
 *.jpeg
 *.jpg
 *.png
 *.gif
 *.svg
 *.webp
-# LibreOffice/OpenOffice lock files
+
+# Ignore LibreOffice/OpenOffice lock files
 .~lock.*
+
+# Ignore document file you don't want to track
 portfolio.docx
