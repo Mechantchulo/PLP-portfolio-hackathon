@@ -1,86 +1,51 @@
-# Erick Mutua's Portfolio 👨‍💻
+# Erick Mutua's Portfolio
 
-Welcome to my personal portfolio website. This site showcases who I am, what I’ve done, and where I’m headed in the world of backend development and AI.
+This is a personal portfolio website built using HTML5 and CSS3. The site is designed to introduce who I am, showcase my education and interests, and highlight my projects in backend development and artificial intelligence.
 
-## 🔗 Live Site
+## Live Site
 
-> 🚀 [View Portfolio](https://ericko-mini-portfolio.netlify.app/)
-
-
----
-
-## 🏠 Home
-
-Hi, I'm **Erick Mutua**  
-**Backend Developer** & **AI Enthusiast**  
-Skilled in Django and FastAPI - I focus on building secure, scalable APIs and database-driven systems for real-world applications.
-
-**Connect With Me:**
-- GitHub: [@Mechantchulo](https://github.com/Mechantchulo)
-- LinkedIn: [Erick Mutua](https://www.linkedin.com/in/erick-mutua-19a076303)
-- Instagram: [@_ericko_m](https://www.instagram.com/_ericko_m/)
+Visit the live portfolio here:  
+[https://ericko-mini-portfolio.netlify.app/](https://ericko-mini-portfolio.netlify.app/)
 
 ---
 
-## 🙋 About Me
+## Features
 
-A passionate backend developer who loves working with:
-- **Django**, **FastAPI**, **DRF**
-- **PostgreSQL**, **Authentication**, **API Security**
-- Real-time AI apps, Chatbots, and TTS (Text-to-Speech)
+This portfolio contains the following key sections:
 
----
-
-## 🎓 Education
-
-| Level | Institution | Duration | Focus |
-|-------|-------------|----------|-------|
-| High School | Nanyuki School | 2019–2022 | Math, Physics, Chemistry, Geography |
-| Bachelor’s | Egerton University | 2023–ongoing | Algorithms, Databases, Networks – GPA: 3.8/4 |
-| Certification | PLP | 2025 | Software Fundamentals – GitHub, Project Mgmt |
-| Course | Self-study | Ongoing | AI Fundamentals, DBMS, Data Modeling |
+- **Home**: Introduction and personal branding  
+- **About Me**: Skills, tools, and areas of expertise  
+- **Education**: Academic background and certifications  
+- **Interests**: Topics and fields I am passionate about  
+- **Projects**: Real-world applications and GitHub links  
+- **Contact**: Ways to reach or collaborate with me  
 
 ---
 
-## 🧠 Interests
+## Technologies Used
 
-- **AI & Machine Learning**: Intelligent, data-driven systems.
-- **DevSecOps**: Secure CI/CD pipelines and infrastructure.
-- **Cloud Engineering**: Deploying scalable systems on AWS/GCP/Azure.
-
----
-
-## 💼 Projects
-
-| Name | Description | Link |
-|------|-------------|------|
-| **Career Connect** | Django-based job matching platform with REST APIs | [Live](https://nextrolejobs.netlify.app/) |
-| **MovieTrends** | Movie discovery site that ranks and tracks trending titles | [Live](https://lmovietrends.netlify.app/) |
-| **Neural Bridge** | AI assistant with emotion detection and gesture recognition using WebSockets | [GitHub](https://github.com/Mechantchulo/neural-bridge) |
+- HTML5  
+- CSS3  
+- Responsive Design Techniques  
+- Boxicons  
 
 ---
 
-## 📬 Contact
+## How to Run the Project
 
-Want to connect, collaborate, or just say hi?
+To run this portfolio locally:
 
-Use the contact form on the site or reach out through any of the socials linked above.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mechantchulo/PLP-hackathons.git
+   
+2. Navigate to the project folder:
+   ```bash
+   cd portfolio-hackathon
 
----
+3. Open index.html in your preferred web browser.
 
-## 🛠️ Built With
-
-- HTML5
-- CSS3
-- [Boxicons](https://boxicons.com/)
-- Responsive Design Techniques
-- Custom animations & interactive UI components
-
----
-
-## 📁 Project Structure
-
-📦portfolio/
+   portfolio/
 ├── index.html
 ├── style.css
 ├── portfolio.docx
@@ -88,17 +53,16 @@ Use the contact form on the site or reach out through any of the socials linked 
 ├── README.md
 └── .gitignore
 
+## Author
+
+**Erick Mutua**  
+Backend Developer & AI Enthusiast  
+- GitHub: [@Mechantchulo](https://github.com/Mechantchulo)  
+- LinkedIn: [Erick Mutua](https://www.linkedin.com/in/erick-mutua-19a076303)
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the **MIT License**.
-
-This project is open for educational and portfolio showcase purposes. You are welcome to take inspiration, but please do not directly copy and reuse without credit.
-
-
----
-
-### Made by Erick Mutua
-
+This project is licensed under the **MIT License**.  
+You are welcome to reference this work for learning purposes.
