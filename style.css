@@ -177,3 +177,30 @@ a {
     
     
 }
+
+.bar-animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: -1;
+
+}
+
+.bar-animation .bar {
+    width: 100%;
+    height: 100%;
+    background: #1f242d;
+    transform: translateY(-100%);
+    animation: show-bar .5s ease-in-out forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+
+
+@keyframes show-bar {
+    100%{
+        transform: translateY(0%);
+
+    }
+    
+}
