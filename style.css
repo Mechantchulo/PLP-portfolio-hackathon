@@ -376,5 +376,118 @@ a {
 }
 
 
-/*Education section*/
+/*Education section styling*/
+.education-section {
+  background-color: #1f242d;
+  padding: 80px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in;
+}
 
+.education-container {
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+}
+
+.education-container .section-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 2rem;
+  padding-left: 2rem;
+  border-left: 3px solid #3700ff;
+  animation: slideUp 1.2s ease-in-out;
+}
+
+.timeline-card {
+  position: relative;
+  margin-bottom: 2.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -1.35rem;
+  top: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  background: #7cf03d;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(124, 240, 61, 0.5);
+}
+
+.timeline-content {
+  background-color: #27313d;
+  padding: 25px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(55, 0, 255, 0.2);
+  text-align: left;
+}
+
+.timeline-card:hover {
+  transform: translateY(-10px);
+}
+
+.timeline-card:hover .timeline-content {
+  box-shadow: 0 15px 35px rgba(124, 240, 61, 0.3);
+}
+
+.timeline-content h3 {
+  font-size: 1.4rem;
+  color: #7cf03d;
+  margin-bottom: 8px;
+}
+
+.timeline-content span {
+  font-size: 0.95rem;
+  color: #aaa;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.hidden-detail {
+  font-size: 0.95rem;
+  color: #ccc;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+}
+
+.timeline-card:hover .hidden-detail {
+  opacity: 1;
+  max-height: 200px;
+}
+
+/* CV Button  */
+.cv-download {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cv-btn {
+  display: inline-block;
+  padding: 0.75rem 1.8rem;
+  font-size: 1rem;
+  background: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 255, 117, 0.2);
+}
+
+.cv-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 117, 0.5);
+}
