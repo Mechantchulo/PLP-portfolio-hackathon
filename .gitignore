@@ -1,0 +1,7 @@
+# Ignore all JPEG and image files
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.svg
+*.webp
