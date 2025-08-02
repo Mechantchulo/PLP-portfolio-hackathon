@@ -5,6 +5,7 @@
 *.gif
 *.svg
 *.webp
+!erickportfolio.jpeg
 
 # Ignore LibreOffice/OpenOffice lock files
 .~lock.*
