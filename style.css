@@ -96,8 +96,8 @@ a {
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .7px #7cf03d;
-    animation: display-text 16s linear infinite;
-    animation-delay: calc(-4s * var(--i));
+    animation: display-text 11s linear infinite;
+    animation-delay: calc(-3s * var(--i));
 }
 
 @keyframes display-text {
