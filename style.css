@@ -491,3 +491,75 @@ a {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 255, 117, 0.5);
 }
+
+/* Interests Section */
+.interests-section {
+  background-color: #1f242d;
+  padding: 80px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in;
+}
+
+.interests-section .section-title {
+  font-size: 2.5rem;
+  color: #7cf03d;
+  font-weight: 600;
+  margin-bottom: 60px; 
+  text-align: center;
+}
+
+/* Container for interest cards */
+.interests-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  animation: slideUp 1.2s ease-in-out;
+  perspective: 1000px;
+}
+
+/* Individual interest card */
+.interest-card {
+  background-color: #27313d;
+  border: 1px solid rgba(124, 240, 61, 0.3);
+  border-radius: 20px;
+  padding: 30px 25px;
+  width: 280px;
+  height: 220px;
+  color: #fff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  cursor: pointer;
+}
+
+.interest-card:hover {
+  transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+  box-shadow: 0 15px 35px rgba(124, 240, 61, 0.3);
+}
+
+/* Card Heading */
+.interest-card h3 {
+  font-size: 1.4rem;
+  color: #7cf03d;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Card Text */
+.interest-card p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Responsive behavior */
+@media (max-width: 900px) {
+  .interests-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
