@@ -4,7 +4,7 @@ Welcome to my personal portfolio website. This site showcases who I am, what I�
 
 ## 🔗 Live Site
 
-> 🚀 [View Portfolio]([https://your-deployed-link.com](https://ericko-mini-portfolio.netlify.app/](https://ericko-mini-portfolio.netlify.app/))  
+> 🚀 [View Portfolio]([https://ericko-mini-portfolio.netlify.app/])  
 
 
 ---
