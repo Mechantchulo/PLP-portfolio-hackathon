@@ -35,7 +35,7 @@ A passionate backend developer who loves working with:
 
 | Level | Institution | Duration | Focus |
 |-------|-------------|----------|-------|
-| High School | Nanyuki School | 2019–2022 | Math, Physics, Chemistry, Geography – Grade A- |
+| High School | Nanyuki School | 2019–2022 | Math, Physics, Chemistry, Geography |
 | Bachelor’s | Egerton University | 2023–ongoing | Algorithms, Databases, Networks – GPA: 3.8/4 |
 | Certification | PLP | 2025 | Software Fundamentals – GitHub, Project Mgmt |
 | Course | Self-study | Ongoing | AI Fundamentals, DBMS, Data Modeling |
