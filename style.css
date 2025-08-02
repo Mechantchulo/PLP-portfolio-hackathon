@@ -274,3 +274,107 @@ a {
     }
     
 }
+
+
+/*About styling*/
+.about-section {
+  background-color: #1f242d;
+  padding: 80px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in;
+}
+
+.about-container {
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+}
+
+.about-text {
+  margin-bottom: 50px;
+  animation: slideUp 1s ease-in-out;
+}
+
+.about-text h2.section-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  animation: slideUp 1.2s ease-in-out;
+}
+
+.about-card {
+  background-color: #27313d;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(124, 240, 61, 0.3); /* green glow */
+}
+
+.about-card i {
+  font-size: 40px;
+  color: #7cf03d;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.about-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.about-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/*Education section*/
+
